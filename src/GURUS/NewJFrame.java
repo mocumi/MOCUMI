@@ -190,6 +190,7 @@ public class NewJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         DefaultTableModel dtm = new javagurus().readFile();
         jTable1.setModel(dtm);
+        
         list l=new list();
         l.Arrlist();
           
@@ -204,6 +205,11 @@ public class NewJFrame extends javax.swing.JFrame {
         
         DefaultTableModel cert = new javagurus().certs();
         jTable2.setModel(cert);
+        
+        
+        
+        // DefaultTableModel dtm = new javagurus().readFile();
+       // jTable1.setModel(dtm);
         
       
     }//GEN-LAST:event_jButton2ActionPerformed
